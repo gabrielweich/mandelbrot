@@ -29,6 +29,7 @@ int main()
 
     start = omp_get_wtime();
 
+    #pragma omp parallel for private(c, z, ztemp)
     for (int i = 0; i < NPOINTS; i++)
     {
         for (int j = 0; j < NPOINTS; j++)
@@ -43,6 +44,7 @@ int main()
                 z.real = ztemp;
                 if ((z.real * z.real + z.imag * z.imag) > 4.0e0)
                 {
+                    #pragma omp critical
                     numoutside++;
                     break;
                 }

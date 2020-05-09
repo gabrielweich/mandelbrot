@@ -29,7 +29,7 @@ int main()
 
     start = omp_get_wtime();
 
-    #pragma omp parallel for private(c, z, ztemp)
+    #pragma omp parallel for private(c, z, ztemp) schedule(guided)
     for (int i = 0; i < NPOINTS; i++)
     {
         for (int j = 0; j < NPOINTS; j++)

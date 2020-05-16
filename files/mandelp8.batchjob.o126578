@@ -1,0 +1,66 @@
+--------------------------------------
+Running PBS prologue script
+
+Checking all prerequisites...
+Done.
+
+Running on host grad05
+
+Initial Time is Sat May 16 19:09:38 BRT 2020
+
+Directory is /home/pp12720/mandelbrot
+
+This jobs runs on the following nodes:
+grad05
+
+JOB_ID:
+126578
+
+NPOINTS: 500 | Area of Mandlebrot set =   1.51121250 +/-   0.00302243
+Time =   0.32005947 seconds
+NPOINTS: 1000 | Area of Mandlebrot set =   1.51020562 +/-   0.00151021
+Time =   1.27180552 seconds
+NPOINTS: 1500 | Area of Mandlebrot set =   1.50959500 +/-   0.00100640
+Time =   2.87054557 seconds
+NPOINTS: 2000 | Area of Mandlebrot set =   1.50928453 +/-   0.00075464
+Time =   5.09578330 seconds
+NPOINTS: 2500 | Area of Mandlebrot set =   1.50905790 +/-   0.00060362
+Time =   7.99416515 seconds
+NPOINTS: 3000 | Area of Mandlebrot set =   1.50903813 +/-   0.00050301
+Time =  11.44641411 seconds
+NPOINTS: 3500 | Area of Mandlebrot set =   1.50894735 +/-   0.00043113
+Time =  15.57550154 seconds
+NPOINTS: 4000 | Area of Mandlebrot set =   1.50881590 +/-   0.00037720
+Time =  20.36304143 seconds
+NPOINTS: 4500 | Area of Mandlebrot set =   1.50882444 +/-   0.00033529
+Time =  25.79778222 seconds
+NPOINTS: 5000 | Area of Mandlebrot set =   1.50875573 +/-   0.00030175
+Time =  31.76145063 seconds
+Final Time is Sat May 16 19:11:40 BRT 2020
+
+--------------------------------------
+Running PBS epilogue.user script
+
+End of PBS epilogue.user script
+
+--------------------------------------
+Running PBS epilogue script
+
+Disabling access of user pp12720 on the batch nodes
+Doing node grad05
+
+ -- Killing all stale user  processes... done.
+ -- Cleaning-up any shmemory segments... done.
+
+Done.
+
+Resources used:
+
+ -- CPU TIME     = 00:13:03 
+
+ -- MEMORY       = 2296kb 
+
+ -- VIRTUAL MEM  = 79312kb 
+
+ -- ELAPSED TIME = 00:02:03 
+
